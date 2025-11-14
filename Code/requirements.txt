@@ -1,0 +1,23 @@
+# Core deep learning frameworks (Paper versions)
+torch==2.4.0
+torchvision>=0.15.0
+
+# Transformers and NLP (Paper versions)
+transformers==4.45.1
+tokenizers>=0.13.0
+sentencepiece>=0.1.99
+
+# Data processing (Paper versions)
+pandas==2.2.3
+numpy==1.26.4
+pillow>=9.5.0
+
+# Metrics and evaluation (Paper versions)
+scikit-learn==1.2.2
+
+# Visualization (Paper versions)
+matplotlib==3.7.5
+seaborn==0.12.2
+
+# Progress bar
+tqdm>=4.65.0

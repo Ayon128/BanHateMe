@@ -30,12 +30,60 @@
 ---
 
 ## 🧩 Methodology Overview
-
+![Method](./Assets/method.png)
 Our approach leverages a hierarchical multimodal framework combining pretrained language encoders and vision encoders to extract modality-specific representations from Bangla memes. We systematically evaluate three fusion strategies to combine visual and textual features: summation-based fusion (element-wise addition of [CLS] tokens), concatenation-based fusion (self-attention over concatenated sequences with mean pooling), and co-attention fusion (cross-modal attention between modalities). The fused representations are passed through a linear classification module for hierarchical prediction. To address the multi-level annotation structure, we propose a composite loss function 
 ``` 
 L_total = L_binary + α · L_hate_cat + β · L_target_grp 
 ```
  where L_binary handles hate/non-hate classification, L_hate_cat manages five-category classification, and L_target_grp identifies four target groups, with optimal weighting at α=0.5, β=0.5 ensuring balanced predictions across all hierarchical levels.
+
+ ## Quick Start & Installation
+
+We recommend using a virtual environment. Install the dependencies using:
+
+  ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    pip install -r requirements.txt
+```
+
+## Configuration
+
+Edit `config.py` to select experiment.
+
+## Training and Evaluation
+
+Before starting, verify setup:
+
+```bash
+python test_setup.py
+```
+
+To train and evaluate the model, use:
+
+```bash
+python train.py
+```
+
+To run all model combinations:
+
+```bash
+python run_all_experiments.py
+```
+
+## Project Structure
+
+```
+Code/
+├── config.py              # Hyperparameters
+├── models.py              # Encoders
+├── fusion.py              # Fusion strategies
+├── dataset.py             # Data loading
+├── train.py               # Training script
+├── utils.py               # Evaluation & visualization
+├── run_all_experiments.py # Full Combinations
+└── test_setup.py          # Setup verification
+```
 
 ## 📊 Experimental Results
 
