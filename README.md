@@ -1,6 +1,6 @@
 # BanHateMe: Understanding Hate in Bangla Memes through Detection, Categorization, and Target Profiling
 
-[![anthology](https://img.shields.io/badge/BLP%20Workshop%20@%20IJCNLP–AACL%202025-EE161F?style=flat&logo=data:image/png;base64,<ACL_LOGO_BASE64>)]([https://blp-workshop.github.io/](https://aclanthology.org/2025.banglalp-1.15.pdf))
+[![anthology](https://img.shields.io/badge/BLP%20Workshop%20@%20IJCNLP–AACL%202025-EE161F?style=flat&logo=data:image/png;base64,<ACL_LOGO_BASE64>)](https://aclanthology.org/2025.banglalp-1.15.pdf)
 [![code](https://img.shields.io/badge/Code-Ayon128/BanHateMe-blue?logo=GitHub)](https://github.com/Ayon128/BanHateMe)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?logo=Kaggle&labelColor=white&logoSize=auto)](https://www.kaggle.com/datasets/mdayonmia1804128/banhateme-dataset)
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20_Dataset-Ayon128/BanHateMe-ff5733?color=ff5733&logoColor=white)](https://huggingface.co/datasets/Ayon128/BanHateMe)
