@@ -4,6 +4,9 @@
 [![code](https://img.shields.io/badge/Code-Ayon128/BanHateMe-blue?logo=GitHub)](https://github.com/Ayon128/BanHateMe)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?logo=Kaggle&labelColor=white&logoSize=auto)](https://www.kaggle.com/datasets/mdayonmia1804128/banhateme-dataset)
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20_Dataset-Ayon128/BanHateMe-ff5733?color=ff5733&logoColor=white)](https://huggingface.co/datasets/Ayon128/BanHateMe)
+[![Poster](https://img.shields.io/badge/Poster-EF3939?style=flat&logo=airplayvideo&logoColor=white&color=gray&labelColor=00877a)](https://drive.google.com/file/d/136JZTHyc12NaS0QFHPyDgxm4hG0EEGpW/view?usp=drive_link)
+[![Slides](https://img.shields.io/badge/Slides-EF3939?style=flat&logo=googleslides&logoColor=white&color=gray&labelColor=B7472A)](https://drive.google.com/file/d/11e8XvieM3VcT1qap018bd_DDWVeKF18-/view?usp=sharing)
+[![Video](https://img.shields.io/badge/Video-4285F4?style=flat&logo=youtube&logoColor=white)](https://drive.google.com/file/d/14m5T8w6szWE_zpFib0ZAVM9Q-GU8pONR/view?usp=sharing)
 
 [Md Ayon Mia](https://github.com/Ayon128) and
 [Md Fahim](https://github.com/md-fahim/)
@@ -169,4 +172,17 @@ Code/
 - **Monolingual models (BanglaBERT)** consistently outperform multilingual models (XLM-RoBERTa) by 3-5%, demonstrating the importance of language-specific pretraining for capturing cultural and linguistic nuances in Bangla hateful content.
 - **Fine-grained classification remains challenging**, with ~40% of hateful memes misclassified as non-hate due to implicit expressions, and notable confusion between overlapping categories (Political/Abusive, Personal Offence/Gender), highlighting the difficulty of detecting subtle cultural cues and sarcasm.
 ---
+## Citation
+
+If you find this work useful, please cite our paper:
+
+```bib
+@inproceedings{mia2025banhateme,
+  title={BanHateME: Understanding Hate in Bangla Memes thorough Detection, Categorization, and Target Profiling},
+  author={Mia, Md Ayon and Fahim, Md},
+  booktitle={Proceedings of the Second Workshop on Bangla Language Processing (BLP-2025)},
+  pages={180--195},
+  year={2025}
+}
+```
 
